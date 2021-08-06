@@ -2,6 +2,6 @@
 ---
 |     | _Problem_ |
 |:--- |:---------- |
-| _#04_ | [_Find Substring_](Find_Substring.py)|
-| _#05_ | [_Anagram or Not_ ](Anagram_or_Not.py)|
+| _#04_ | [_Find Substring_](Solution/Find_Substring.py)|
+| _#05_ | [_Anagram or Not_ ](Solution/Anagram_or_Not.py)|
 ---
