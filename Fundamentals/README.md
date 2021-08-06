@@ -1,9 +1,9 @@
 |     | _Problem_ |
 |:--- |:---------- |
-| #01 | [_Reverse the Number_](Fundamentals/Reverse_the_Number.py)|
-| #02 | [_Boxes and Toys_ ](Fundamentals/Boxes_and_Toys.py)|
-| #20 | [_Fix it_](Fundamentals/Fix_it.py) |
-| #25 | [_Ten from Two_](Fundamentals/Ten_from_Two.py) |
-| #26 | [_Toppers_](Fundamentals/Toppers.py) |
-| #27 | [_Fit Square_](Fundamentals/Fit_Square.py) |
+| _#01_ | [_Reverse the Number_](Reverse_the_Number.py)|
+| _#02_ | [_Boxes and Toys_ ](Boxes_and_Toys.py)|
+| _#20_ | [_Fix it_](Fix_it.py) |
+| _#25_ | [_Ten from Two_](Ten_from_Two.py) |
+| _#26_ | [_Toppers_](Toppers.py) |
+| _#27_ | [_Fit Square_](Fit_Square.py) |
 
