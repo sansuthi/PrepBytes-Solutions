@@ -2,9 +2,9 @@
 ---
 |     | _Problem_ |
 |:--- |:---------- |
-| _#01_ | [_Min and Max_](Min_and_Max.py)|
-| _#05_ | [_Students Roll Number_ ](Students_Roll_Number.py)|
-| _#06_ | [_Unique Color Shirt_](Unique_Color_Shirt.py) |
-| _#11_ | [_Birthday Game_](Birthday_Game.py) |
-| _#12_ | [_Find Money_](Find_Money.py) |
+| _#01_ | [_Min and Max_](Solution/Min_and_Max.py)|
+| _#05_ | [_Students Roll Number_ ](Solution/Students_Roll_Number.py)|
+| _#06_ | [_Unique Color Shirt_](Solution/Unique_Color_Shirt.py) |
+| _#11_ | [_Birthday Game_](Solution/Birthday_Game.py) |
+| _#12_ | [_Find Money_](Solution/Find_Money.py) |
 ---
