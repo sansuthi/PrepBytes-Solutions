@@ -29,7 +29,7 @@ Output
 0 0 0 0 0 1 1 1 2 2 
 0 1 1 2 2 2 2 2 2 2
 '''
-# SOLUTION - 2/8/2021 10:11PM	
+# SOLUTION - 2/8/2021 10:11PM
 for _ in range(int(input())):
   n = input()
   array = [int(x) for x in input().split()]
