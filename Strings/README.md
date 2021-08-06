@@ -4,4 +4,5 @@
 |:--- |:---------- |
 | _#04_ | [_Find Substring_](Solution/Find_Substring.py)|
 | _#05_ | [_Anagram or Not_ ](Solution/Anagram_or_Not.py)|
+| _#07_ | [_First Character_](Solution/First_character.py)|
 ---
