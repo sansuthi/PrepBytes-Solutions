@@ -6,4 +6,5 @@
 | _#25_ | [_Ten from Two_](Solution/Ten_from_Two.py) |
 | _#26_ | [_Toppers_](Solution/Toppers.py) |
 | _#27_ | [_Fit Square_](Solution/Fit_Square.py) |
+| _#35_ | [_Elon and Bitcoins_](Solution/Elon_and_Bitcoins.py) |
 
