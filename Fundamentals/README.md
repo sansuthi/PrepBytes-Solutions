@@ -6,6 +6,7 @@
 | _#25_ | [_Ten from Two_](Solution/Ten_from_Two.py) |
 | _#26_ | [_Toppers_](Solution/Toppers.py) |
 | _#27_ | [_Fit Square_](Solution/Fit_Square.py) |
+| _#34_ | [_Armstrong Number_](Solution/Armstrong_Number.py) |
 | _#35_ | [_Elon and Bitcoins_](Solution/Elon_and_Bitcoins.py) |
 | _#36_ | [_Brad and Zombie_](Solution/Brad_and_Zombie.py) |
 
