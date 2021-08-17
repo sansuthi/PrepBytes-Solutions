@@ -16,7 +16,7 @@ Print the result after subtracting 1 from N, K times. Display answer for each te
 Constraints
 . 1 ≤ T ≤3
 . 2 ≤ N ≤ 10^9
-.1 ≤ K ≤ 50
+. 1 ≤ K ≤ 50
 
 Examples
 Input
