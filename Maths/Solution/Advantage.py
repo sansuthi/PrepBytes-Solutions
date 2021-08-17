@@ -26,4 +26,4 @@ Sample Output
 '''
 # SOLUTION - 17/8/2021 5:21PM
 x, y, k = map(int, input().split())
-print(len([num for num in range(x, y+1) if num%k == 0]))
+print(len([num for num in range(x, y+1) if num % k == 0]))
