@@ -4,4 +4,5 @@
 |:--- |:---------- |
 | _#01_ | [_Determine Prime_](Solution/Determine_Prime.py)|
 | _#06_ | [_Teach Subtraction_](Solution/Teach_Subtraction.py) |
+| _#15_ | [_Advantage_](Solution/Advantage.py) |
 ---
