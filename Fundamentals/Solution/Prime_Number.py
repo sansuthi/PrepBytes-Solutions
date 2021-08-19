@@ -25,13 +25,11 @@ Input2
 Output2
 100170
 '''
-# SOLUTION - 19/8/2021 9:40AM
+# SOLUTION - 19/8/2021 9:47AM
 n = int(input())
 for num in range(10**(n-1), 10**(n)):
-  count = 0
-  for prime in [2, 3, 5, 7]:
-    if num % prime == 0: count += 1
-  if count == 4:
+  count = [1 for i in [2, 3, 5, 7] if num % i == 0]
+  if sum(count) == 4:
     print(num)
     break
 else: print(-1)
