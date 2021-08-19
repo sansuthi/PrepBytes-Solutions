@@ -10,4 +10,5 @@
 | _#34_ | [_Armstrong Number_](Solution/Armstrong_Number.py) |
 | _#35_ | [_Elon and Bitcoins_](Solution/Elon_and_Bitcoins.py) |
 | _#36_ | [_Brad and Zombie_](Solution/Brad_and_Zombie.py) |
-
+| _#40_ | [_Prime Number_](Solution/Prime_Number.py) |
+---
