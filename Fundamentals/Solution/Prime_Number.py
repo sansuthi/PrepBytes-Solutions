@@ -25,11 +25,10 @@ Input2
 Output2
 100170
 '''
-# SOLUTION - 19/8/2021 9:47AM
+# SOLUTION - 19/8/2021 9:52AM
 n = int(input())
 for num in range(10**(n-1), 10**(n)):
-  count = [1 for i in [2, 3, 5, 7] if num % i == 0]
-  if sum(count) == 4:
+  if sum([1 for i in [2, 3, 5, 7] if num % i == 0]) == 4:
     print(num)
     break
 else: print(-1)
