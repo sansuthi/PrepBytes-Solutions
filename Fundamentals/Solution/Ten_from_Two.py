@@ -32,16 +32,10 @@ In the first test case, n=10 is already divisible by 10 so the number of operati
 In the second test case, n=25 will be divisible by 10 after multiplying n by 2 once. 25∗2=50 and 50 is 
 divisible by 10.
 '''
-# SOLUTION - 31/7/2021 9:45PM
+# SOLUTION - 21/8/2021 11:12AM
 for _ in range(int(input())):
-  num = int(input())
-  i = 0
-  for k in range(100):
-    if num % 10 == 0:
-        print(i)
-        break
-    else:
-        num *= 2 
-        i += 1
-  else:
-    print(-1)
+  num, i = int(input()), 0
+  while i != 10 and num % 10 != 0:
+    num *= 2 
+    i += 1 
+  print(-1) if i==10 else print(i)
