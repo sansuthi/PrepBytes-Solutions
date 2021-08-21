@@ -14,8 +14,8 @@ Print T values. Each line will print number of operations(0 or more) if it is po
 10 else print −1.
 
 Constraints
-1 <= T <=5
-1 <= N <50
+. 1 <= T <= 5
+. 1 <= N < 50
 
 Example
 Input:
