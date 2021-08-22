@@ -32,8 +32,6 @@ Output
 for _ in range(int(input())):
   number, limit = map(int, input().split())
   for i in range(limit):
-    if number % 10 == 0:
-      number //= 10
-    else:
-      number -= 1
+    if number % 10 == 0: number //= 10
+    else: number -= 1
   print(number)
