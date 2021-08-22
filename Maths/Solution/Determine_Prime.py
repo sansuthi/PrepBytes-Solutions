@@ -23,12 +23,11 @@ Output
 Yes
 No
 '''
-# SOLUTION - 18/8/2021 9:30AM
+# SOLUTION - 22/8/2021 11:16AM
 for _ in range(int(input())):
   number = int(input())
-  flag = False
   for i in range(2, number):
     if number % i == 0:
-      flag = True
+      print('No')
       break
-  print('No') if flag else print('Yes')
+  else: print('Yes')
