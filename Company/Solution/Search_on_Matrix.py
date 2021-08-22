@@ -5,7 +5,6 @@ This 2D matrix has 2 properties
 1. Integers in each row are sorted from left to right.
 2. The first integer of each row is greater than the last integer of the previous row.
 You will be given an N∗M matrix and a value X to be searched in it if it is present in the matrix print "Yes" otherwise "No".
-
 Note: your search algorithm should have a time complexity = O(log(N∗M)). 
 
 Input format:
