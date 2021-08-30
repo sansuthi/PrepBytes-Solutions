@@ -2,4 +2,4 @@
 |:--------- |:----------------|:------------|:-------------|:---|
 | **_[Fit Square](Solution/Fit_Square.py)_** | **_[Fix it](Solution/Fix_it.py)_** |**_[Harvest Fruits](Solution/Harvest_Fruits.py)_** | **_[Last Exam](Solution/Last_Exam.py)_** | **_[Parallel Geometry](Solution/Parallel_Geometry.py)_** |  
 | **_[Perfect Number and Divisors](Solution/Perfect_Number_and_Divisors.py)_** | **_[Prime Number](Solution/Prime_Number.py)_** | **_[Reverse the Number](Solution/Reverse_the_Number.py)_** | **_[Sorcerer Sequence](Solution/Sorcerer_Sequence.py)_** | **_[Ten from Two](Solution/Ten_from_Two.py)_** |
-| **_[Toppers](Solution/Toppers.py)_** ||||
+| **_[Toppers](Solution/Toppers.py)_** | **_[Tricky Function](Solution/Tricky_Function.py)_**|||
