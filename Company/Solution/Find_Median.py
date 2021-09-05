@@ -17,8 +17,8 @@ In case of m+n= odd, mid element is median.
 In case of m+n= even, average of two mid elements is the median(double value).
 
 Constraints:
-1 <= t <= 10
-1 <= n,m <= 10^5
+. 1 <= t <= 10
+. 1 <= n, m <= 10^5
 
 Example
 Input
