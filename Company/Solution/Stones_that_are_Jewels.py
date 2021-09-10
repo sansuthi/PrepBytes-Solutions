@@ -12,7 +12,7 @@ Print the number of stones you have which are also jewels. Print answer for each
 
 Constraints
 . 1 ≤ T ≤ 10^2
-. 1 ≤| S|, |P| ≤ 10^4, where |S| and |P| denotes the length of the string S and P.
+. 1 ≤ |S|, |P| ≤ 10^4, where |S| and |P| denotes the length of the string S and P.
 The letters in S are guaranteed distinct
 
 Examples
