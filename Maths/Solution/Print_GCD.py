@@ -25,10 +25,11 @@ Output
 2
 3
 '''
-# SOLUTION - 4/10/2021 10:09AM	
+# SOLUTION - 4/10/2021 10:16AM	
 for _ in range(int(input())):
   n, m = map(int, input().split())
-  for i in range(1, min(n, m)+1):
+  for i in range(min(n, m), 0, -1):
     if n % i == 0 and m % i == 0:
       gcd = i
+      break
   print(gcd)
