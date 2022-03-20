@@ -26,12 +26,12 @@ Output
 6
 840
 '''
-# SOLUTION - 19/3/2022 9:33PM
+# SOLUTION - 21/3/2022 1:04AM
 def digit_mul(num, product=1):
-    if len(num) == 0:
+    if num == 0:
         return product % ((10**9)+7)
     else:
-        return digit_mul(num[1:], product*int(num[0]))
+        return digit_mul(num//10, product*(num%10))
 
 for _ in range(int(input())):
-    print(digit_mul(input().strip()))
+    print(digit_mul(int(input())))
