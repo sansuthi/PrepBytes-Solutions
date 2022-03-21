@@ -44,10 +44,10 @@ Array = [4,3,5,2,1]
 1 is smaller than 2, so skip it.
 Final answer = 0 2
 '''
-# SOLUTION - 21/3/2022 8:07PM
+# SOLUTION - 21/3/2022 8:26PM
 for _ in range(int(input())):
     N = int(input()) 
-    arr = list(map(int, input().strip().split())) 
+    arr = list(map(int, input().split())) 
     house = []
     for i in range(N):
       if i == 0:
