@@ -36,7 +36,6 @@ Output
 
 Sample test case explanation
 N=5
-
 Array = [4,3,5,2,1]
 4 is greater than 3, so print 0(house number of the house paying rent = 4)
 3 is not greater than its neighbor 4 and 5, so skip it.
