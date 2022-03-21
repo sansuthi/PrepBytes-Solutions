@@ -45,7 +45,7 @@ Explanation
 Nishant has got two bronze coins from 1st two children, now he can take the silver coin 
 from 3rd child and give him one bronze coin and the chocolate.
 '''
-# SOLUTION - 21/3/2022 10:46PM	
+# SOLUTION - 22/3/2022 2:29AM
 for _ in range(int(input())):
     N = int(input());
     coins = list(map(int, input().split()));
@@ -61,7 +61,7 @@ for _ in range(int(input())):
             else:
                 result = 'No';
                 break;
-        elif c == 4:
+        else:
             if count[0] >= 1 and count[1] >= 1:
                 count[1] -= 1;
                 count[0] -= 1;
