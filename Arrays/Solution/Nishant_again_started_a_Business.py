@@ -27,7 +27,7 @@ For every test case print Yes or No according to the above-mentioned conditions.
 
 Constraints
 . 1 <= T <= 70
-. 1 <= N <= 105
+. 1 <= N <= 10^5
 
 Time Limit
 1 second
