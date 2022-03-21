@@ -48,16 +48,15 @@ Input: N=5
 The sequance will be [5, 16, 8, 4, 2, 1], sum = 5 + 16 + 8 + 4 + 2 + 1  
 Output: 36
 '''
-# SOLUTION - 19/3/2022 10:10PM
+# SOLUTION - 22/3/2022 2:26AM
 def sequence(number, seq_sum=0):
+    seq_sum += number;
     if number == 1:
-        return (seq_sum + 1)  % ((10**9)+7)
-    seq_sum += number
+        return seq_sum % (10**9+7);
     if number % 2 == 0:
-        number //= 2
+      	return sequence(number//2, seq_sum);    
     else:
-        number = (number * 3) + 1
-    return sequence(number, seq_sum)
-
+      	return sequence((number*3)+1, seq_sum);
+    
 for _ in range(int(input())):
-    print(sequence(int(input())))
+    print(sequence(int(input())));
