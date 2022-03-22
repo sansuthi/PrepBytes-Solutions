@@ -2,4 +2,4 @@
 ---
 |[_Anagram or Not_ ](Solution/Anagram_or_Not.py)|[_Decreasing Order Strings_](Solution/Decreasing_Order_Strings.py)|[_Fake Password_](Solution/Fake_Password.py)|[_Find Substring_](Solution/Find_Substring.py)|[_First Character_](Solution/First_character.py)|
 |:---|:---|:---|:---|:---|
-|**[_Vowels and Consonants_](Solution/Vowels_and_Consonants.py)**|  
+|**[_Playing Cards_](Solution/Playing_Cards.py)**|**[_Vowels and Consonants_](Solution/Vowels_and_Consonants.py)**|  
