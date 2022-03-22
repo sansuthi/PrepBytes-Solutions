@@ -27,13 +27,13 @@ Output
 2 7
 0 3
 '''
-# SOLUTION - 22/3/2022 12:34PM	
+# SOLUTION - 23/3/2022 12:53AM
 for _ in range(int(input())):
-  v_count = 0; c_count = 0;
-  string = input().lower();
+  count = [0, 0];
+  string = input();
   for letter in string:
-    if letter in 'aeiou':
-      v_count += 1;
+    if letter in 'AEIOU':
+      count[0] += 1;
     else:
-      c_count += 1;
-  print(v_count, c_count);
+      count[1] += 1;
+  print(*count);
