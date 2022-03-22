@@ -25,7 +25,7 @@ Output
 
 Sample test case explanation
 arr[] = [1,2,3,4,5]
-o/p = [5,4,3,2,1]
+o/p   = [5,4,3,2,1]
 '''
 # SOLUTION - 21/3/2022 5:30PM
 N = int(input()) - 1
