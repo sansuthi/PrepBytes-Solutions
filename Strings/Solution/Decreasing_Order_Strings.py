@@ -29,16 +29,15 @@ Output
 ytsrppeeb
 tromlihga
 '''
-# SOLUTION - 22/3/2022 2:22PM
+# SOLUTION - 22/3/2022 3:10PM
 for _ in range(int(input())):
     string = input();
-    while len(string) > 0:
-        str_set = list(set(string));
-        greater = str_set[0]; 
+    str_set = ''.join(set(string));
+    while len(str_set) > 0:
+        greater = str_set[0];
         for i in range(1, len(str_set)):
             if str_set[i] > greater:
-                greater = str_set[i]; 
-        count = string.count(greater);
-        string = string.replace(greater, '', count);
-        print(greater*count, end='');
+                greater = str_set[i];
+        print(greater*string.count(greater), end='');
+        str_set = str_set.replace(greater, '');
     print();
