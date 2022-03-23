@@ -32,11 +32,11 @@ Output
 60
 1030
 '''
-# SOLUTION - 23/3/2022 3:16PM
+# SOLUTION - 23/3/2022 3:40PM
 for _ in range(int(input())):
   N = int(input());
-  array = list(map(int, input().split()));
+  array = input().split();
   arr_sum = 0;
   for i in range(N):
-    arr_sum += array[i];
+    arr_sum += int(array[i]);
   print(arr_sum);
