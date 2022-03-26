@@ -29,10 +29,10 @@ Output
 1234  4321
 1234554321
 '''
-# SOLUTION - 26/3/2022 7:59PM
+# SOLUTION - 26/3/2022 8:07PM
 ch = input();
-x = 8;
-for i in range(1, 6):
+f = 5; x = (f-1)*2;
+for i in range(1, f+1):
     n = 0;
     while n < i:
         n += 1;
@@ -41,5 +41,5 @@ for i in range(1, 6):
     while n >= 1:
         print(n, end='');
         n -= 1;   
-    x -= 2;
     print();
+    x -= 2;
