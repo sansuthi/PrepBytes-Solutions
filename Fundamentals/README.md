@@ -4,4 +4,4 @@
 | **_[Fix it](Solution/Fix_it.py)_** |**_[Harvest Fruits](Solution/Harvest_Fruits.py)_**  | **_[Last Exam](Solution/Last_Exam.py)_** | **_[Leap Year or Not](Solution/Leap_Year_or_Not.py)_** |**_[Modulus Ten](Solution/Modulus_Ten.py)_**|
 |**_[Narcissistic Number](Solution/Narcissistic_Number.py)_**| **_[Parallel Geometry](Solution/Parallel_Geometry.py)_**| **_[Perfect Number and Divisors](Solution/Perfect_Number_and_Divisors.py)_**| **_[PrepBuddy and Socks](Solution/PrepBuddy_and_Socks.py)_** | **_[Prime Number](Solution/Prime_Number.py)_** |
 | **_[Reverse the Number](Solution/Reverse_the_Number.py)_** |**_[Second Smallest](Solution/Second_Smallest.py)_**| **_[Shopping Cost](Solution/Shopping_Cost.py)_** | **_[Sorcerer Sequence](Solution/Sorcerer_Sequence.py)_** | **_[Sum of Digits](Solution/Sum_of_Digits.py)_**|
-| **_[Ten from Two](Solution/Ten_from_Two.py)_**  | **_[Toppers](Solution/Toppers.py)_** |**_[Tricky Function](Solution/Tricky_Function.py)_** | |
+| **_[Ten from Two](Solution/Ten_from_Two.py)_**  | **_[Toppers](Solution/Toppers.py)_** |**_[Tricky Function](Solution/Tricky_Function.py)_** |**_[V Pattern](Solution/V_Pattern.py)_**|
