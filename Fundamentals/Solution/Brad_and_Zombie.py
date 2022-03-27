@@ -38,8 +38,12 @@ Sample Input
 Sample Output
 9
 '''
-# SOLUTION - 8/8/2021 12:24PM
-diff = abs(int(input()) - int(input()))
-energy = 2 * sum([i for i in range((diff//2)+1)])
-if diff%2 == 0: print(energy)
-else: print(energy + (diff//2)+1)
+# SOLUTION - 27/3/2022 9:46AM
+diff = abs(int(input())- int(input()));
+energy = 0;
+for i in range(diff//2+1):
+    energy += 2 * i;
+if diff % 2 == 0: 
+    print(energy);
+else: 
+    print(energy+diff//2+1);
