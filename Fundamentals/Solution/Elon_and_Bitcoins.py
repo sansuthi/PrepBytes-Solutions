@@ -33,6 +33,10 @@ Explanation
 
 So, we have 3 ways to divide the bitcoins.
 '''
-# SOLUTION - 8/8/2021 11:46AM
-coins = int(input())
-print(len([coin for coin in range(2, coins+1) if coins % coin == 0]))
+# SOLUTION - 27/3/2022 9:51AM
+coins = int(input());
+count = 0;
+for i in range(2, coins+1):
+    if coins % i == 0:
+        count += 1;
+print(count);
