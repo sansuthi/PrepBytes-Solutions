@@ -25,7 +25,14 @@ Output
 true
 false
 '''
-# SOLUTION - 18/8/2021 1:32PM	
+# SOLUTION - 27/3/2022 9:40AM
 for _ in range(int(input())):
-  number = int(input())
-  print('true') if sum([num for num in range(1, number) if number % num == 0]) == number else print('false')
+  number = int(input());
+  div_sum = 0;
+  for i in range(1, number):
+    if number % i == 0:
+      div_sum += i;
+  if div_sum == number: 
+    print('true');
+  else: 
+    print('false');
