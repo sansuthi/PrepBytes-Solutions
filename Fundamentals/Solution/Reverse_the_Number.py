@@ -19,5 +19,10 @@ Input
 Output
 543201
 '''
-# SOLUTION - 30/7/2021 11:53PM
-print(input()[::-1])
+# SOLUTION - 27/3/2022 9:30AM
+num = int(input());
+rev = 0;
+while num > 0:
+    rev = rev*10 + num%10;
+    num //= 10;
+print(rev);
