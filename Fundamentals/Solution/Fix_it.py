@@ -14,8 +14,8 @@ Output Format
 For each test case on a new line, print the minimum number of students Priya needs to change the state of to complete the task.
 
 Constraints
-. 1 ≤ T ≤10
-. 2 ≤ N ≤105
+. 1 ≤ T ≤ 10
+. 2 ≤ N ≤ 10^5
 . N is even
 
 Time limit
