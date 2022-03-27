@@ -18,6 +18,9 @@ Constraints
 . 1 ≤ N ≤ 2∗10^5
 . 1 ≤ Ai ≤ 2∗10^5
 
+Time Limit
+1 second
+
 Example
 Sample Input
 1
@@ -27,9 +30,15 @@ Sample Input
 Sample Output
 31
 '''
-# SOLUTION - 28/8/2021 12:25PM
+# SOLUTION - 27/3/2022 10:08AM
 for _ in range(int(input())):
-  n = input()
-  fruits = [int(x) for x in input().split() if int(x) > 10]
-  total = sum([fruit if fruit%2 != 0 else fruit//2 for fruit in fruits])
-  print(total)
+    N = int(input());
+    fruits = list(map(int, input().split()));
+    total = 0;
+    for f in fruits:
+        if f > 10:
+            if f % 2 != 0:
+                total += f;
+            else:
+                total += f//2;
+    print(total)
