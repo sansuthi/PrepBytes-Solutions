@@ -18,6 +18,8 @@ Constraints
 . 2 ≤ N ≤105
 . N is even
 
+Time limit
+1 second
 
 Example
 Input
@@ -29,7 +31,12 @@ Output
 1
 0
 '''
-# SOLUTION - 5/8/2021 8:25PM
+# SOLUTION - 27/3/2022 9:59AM
 for _ in range(int(input())):
-  array = list(input())
-  print(abs((len(array)//2) - array.count('U')))
+    array = input();
+    length = 0; U_count = 0; 
+    for char in array:
+        length += 1;
+        if char == 'U':
+            U_count += 1;
+    print(abs(length//2 - U_count));
