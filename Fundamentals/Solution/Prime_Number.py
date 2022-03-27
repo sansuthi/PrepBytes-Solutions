@@ -25,10 +25,15 @@ Input2
 Output2
 100170
 '''
-# SOLUTION - 19/8/2021 9:52AM
-n = int(input())
-for num in range(10**(n-1), 10**(n)):
-  if sum([1 for i in [2, 3, 5, 7] if num % i == 0]) == 4:
-    print(num)
-    break
-else: print(-1)
+# SOLUTION - 27/3/2022 10:29AM
+N = int(input());
+result = -1;
+for num in range(10**(N-1), 10**N):
+  count = 0;
+  for i in [2, 3, 5, 7]:
+    if num % i == 0:
+      count += 1;
+  if count == 4:
+    result = num;
+    break;
+print(result);
