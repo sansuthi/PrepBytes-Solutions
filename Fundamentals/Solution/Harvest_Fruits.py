@@ -41,4 +41,4 @@ for _ in range(int(input())):
                 total += f;
             else:
                 total += f//2;
-    print(total)
+    print(total);
