@@ -28,9 +28,13 @@ Output
 2
 -1
 '''
-# SOLUTION - 31/8/2021 12:26PM
+# SOLUTION - 29/3/2022 3:25PM
 for _ in range(int(input())):
-  n = input()
-  array = list(map(int, input().split()))
-  if 1 in array: print(array.index(1))
-  else: print(-1)
+  N = int(input());
+  A = list(map(int, input().split()));
+  index = -1;
+  for i in range(N):
+    if A[i] == 1:
+      index = i;
+      break;
+  print(index);
