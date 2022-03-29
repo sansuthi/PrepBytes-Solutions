@@ -19,6 +19,9 @@ Constraints
 . 1 <= N <= 10^5
 . 1 <= A[i] <= 2∗10^5
 
+Time Limit
+1 second
+
 Example
 Input
 2
@@ -35,12 +38,12 @@ Sample test case explanation
 In the first test case, the top most milestone value is 15, after which the values keep on strictly decreasing.
 In the second test case, the top most milestone value is 30, after which the values keep on strictly decreasing. 
 '''
-# SOLUTION - 31/8/2021 1:43PM	
+# SOLUTION - 29/3/2022 3:41PM	
 for _ in range(int(input())):
-  n = input()
-  array = list(map(int, input().split()))
-  for i in range(len(array)-1):
-    if array[i] > array[i+1]:
-      top = array[i]
-      break
-  print(top)
+  N = int(input());
+  A = list(map(int, input().split()))
+  i = N-1;
+  while A[i-1] > A[i]:
+    top = A[i-1];
+    i -= 1;
+  print(top);
