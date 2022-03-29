@@ -17,6 +17,9 @@ Constraints
 . 1 <= N <= 2.5∗10^6
 . 0 <= A[i] <= 2∗10^6
 
+Time Limit
+1 second
+
 Example
 Input
 3
