@@ -1,11 +1,13 @@
 # Floor of a Number
 '''
-We all have learnt about floor of a number in school. Let us try and frame a problem statement around that. So, you are given a number 
-x and a sorted array A containing N distinct integers. Your task is to find floor of x in the array A(0-based indexing). Now you might be 
-wondering what will be floor of x in A? Let me tell you, the floor of x will largest element in A that is smaller than or equal to x.
+We all have learnt about floor of a number in school. Let us try and frame a problem statement around that. 
+So, you are given a number x and a sorted array A containing N distinct integers. Your task is to find floor 
+of x in the array A(0-based indexing). Now you might be wondering what will be floor of x in A? Let me tell you, 
+the floor of x will largest element in A that is smaller than or equal to x.
 
 Input format
-First line contains an integer T, number of test cases. Then follows T test cases. Each test case consists of two lines.
+First line contains an integer T, number of test cases. 
+Then follows T test cases. Each test case consists of two lines.
 First line contains N and x.
 Second lines contains N space separated integers.
 
