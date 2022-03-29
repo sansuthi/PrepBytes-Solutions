@@ -32,8 +32,14 @@ Output
 1
 3
 '''
-# SOLUTION - 31/8/2021 11:26AM
+# SOLUTION - 29/3/2022 3:18PM
 for _ in range(int(input())):
-  N, x = map(int, input().split())
-  floor = len([int(n) for n in input().split() if int(n) <= x])
-  print(-1) if floor == 0 else print(floor-1)
+  N, x = map(int, input().split());
+  A = list(map(int, input().split()));
+  index = -1; i = N-1;
+  while i >= 0:
+    if A[i] <= x:
+      index = i;
+      break;
+    i -= 1;
+  print(index);
