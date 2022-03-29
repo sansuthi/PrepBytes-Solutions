@@ -18,6 +18,9 @@ Constraints
 . 3 <= N < 2∗10^6
 . 1 <= A[i] <= 10^7+5
 
+Time Limit
+1 second
+
 Example
 Input
 2
@@ -30,12 +33,13 @@ Output
 7
 13
 '''
-# SOLUTION - 31/8/2021 1:33PM
+# SOLUTION - 29/3/2022 3:30PM
 for _ in range(int(input())):
-  n = input()
-  array = list(map(int, input().split()))
-  for i in range(len(array)-1):
-    if array[i+1] - array[i] != array[-1] - array[-2]:
-      missing = (array[i+1] + array[i])//2
-      break
-  print(missing)
+  N = int(input());
+  A = list(map(int, input().split()));
+  diff = A[-1] - A[-2];
+  for i in range(N-1):
+    if A[i+1] - A[i] != diff:
+      missing = (A[i+1] + A[i])//2;
+      break;
+  print(missing);
