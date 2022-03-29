@@ -16,6 +16,9 @@ Constraints
 . 1 <= N <= 5∗10^6
 . A[i] = 0|1
 
+Time Limit
+1 second
+
 Example
 Input
 2
