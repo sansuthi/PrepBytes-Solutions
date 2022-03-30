@@ -6,8 +6,8 @@ society and the arrangement looks something like this in the image.
         
    sun                                    ___         
                                          |||||                        
-               ___                       |||||        
-              |||||     Buildings        |||||        
+               ___     Buildings         |||||        
+              |||||                      |||||        
               |||||     ___              |||||        
               |||||    |||||             |||||        
               |||||    |||||             |||||        
