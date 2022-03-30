@@ -52,10 +52,10 @@ Output
 Sample test case explanation
 In the first test case
 1. Building with a height of 7 is receiving the sunlight.
-2. Building with a height of 4 is not receiving the sunlight 
+2. Building with a height of 4 is not receiving the sunlight, 
    because it is blocked by a higher building with height = 7.
 3. Building with a height of 8 is receiving the sunlight.
-4. Building with a height of 2 is not receiving the sunlight 
+4. Building with a height of 2 is not receiving the sunlight, 
    because it is blocked by a higher building with height = 8.
 5. Building with a height of 9 is receiving the sunlight.
 '''
