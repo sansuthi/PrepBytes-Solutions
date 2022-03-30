@@ -2,24 +2,21 @@
 '''
 The sun is out and you are given an array containing unique integers representing height of buildings in a 
 society and the arrangement looks something like this in the image.
-
-_______________________________________________________
-|                                                      |
-|                                                      |
-|                                                      |
-|  sun                                     ___         |
-|                                         |   |        |                
-|               ___                       |   |        |
-|              |   |     Buildings        |   |        |
-|              |   |     ___              |   |        |
-|              |   |    |   |             |   |        |
-|              |   |    |   |             |   |        |
-|              |   |    |   |     ___     |   |        |              
-|              |   |    |   |    |   |    |   |        |
-|              |   |    |   |    |   |    |   |        |
-|              |   |    |   |    |   |    |   |        |
-|              |   |    |   |    |   |    |   |        |
- _______________________________________________________
+        
+        
+   sun                                    ___         
+                                         |||||                        
+               ___                       |||||        
+              |||||     Buildings        |||||        
+              |||||     ___              |||||        
+              |||||    |||||             |||||        
+              |||||    |||||             |||||        
+              |||||    |||||     ___     |||||                     
+              |||||    |||||    |||||    |||||        
+              |||||    |||||    |||||    |||||        
+              |||||    |||||    |||||    |||||        
+              |||||    |||||    |||||    |||||     
+              
 
 The sun faces building from left to right. Your task is to find out the number of buildings facing the sun.
 
