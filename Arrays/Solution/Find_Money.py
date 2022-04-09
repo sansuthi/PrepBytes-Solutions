@@ -13,8 +13,11 @@ Output Format
 For each test case T, print the desired output in a new line. If a box with money = K is not present print 0.
 
 Constraints
-1 <= T <= 1000
-1 <= N, K <= 10^5
+. 1 <= T <= 1000
+. 1 <= N, K <= 10^5
+
+Time Limit
+1 second
 
 Example
 Input
@@ -44,12 +47,21 @@ Since 13 is in the path so the sum of the left and right side is 94 and 26.
 For Input 4,
 Since 1999 is not in the path so 0.
 '''
-# SOLUTION - 31/7/2021 4:49PM
+# SOLUTION - 9/4/2022 12:36PM
 for _ in range(int(input())):
-  n, ind = map(int, input().split())
-  array = list(map(int, input().split()))
-  try:
-    index = array.index(ind)
-    print(sum(array[:index]), sum(array[index+1:]))
-  except:
-    print(0)
+  N, K = map(int, input().split());
+  A = list(map(int, input().split()));
+  sum1 = sum2 = 0;
+  index = -1;
+  for i in range(N):
+    if A[i] == K:
+      index = i;
+      break;
+    else:
+      sum1 += A[i];
+  if index != -1:
+    for j in range(index+1, N):
+      sum2 += A[j];
+    print(sum1, sum2);
+  else:
+    print(0);
