@@ -13,9 +13,12 @@ Output format
 For each test case, print the English paper student's roll number.
 
 Constraints
-1 <= T <= 10
-1 <= N <= 10^5
-1 <= Ai <= 10^5
+. 1 <= T <= 10
+. 1 <= N <= 10^5
+. 1 <= Ai <= 10^5
+
+Time Limit
+1 second
 
 Example
 Input
@@ -29,8 +32,11 @@ Output
 1 3
 1 3 5
 '''
-# SOLUTION - 1/8/2021 12:01PM
+# SOLUTION - 9/4/2022 12:20PM
 for _ in range(int(input())):
-  st = input()
-  array = list(map(int, input().split()))
-  print(*array[::2])
+  N = int(input());
+  A = list(map(int, input().split()));
+  for i in range(N):
+    if i % 2 == 0:
+      print(A[i], end=' ');
+  print();
