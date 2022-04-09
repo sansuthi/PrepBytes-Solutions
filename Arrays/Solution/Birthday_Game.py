@@ -32,12 +32,15 @@ Explanation
 Anamika wants to find segments summing to Yatharth's birthday, D=4 with a length matching his birth month, M=2. 
 In this case, two segments are meeting her criteria: [2,2] and [1,3].
 '''
-# SOLUTION - 31/7/2021 4:58PM
-n = input()
-array = list(map(int, input().split()))
-d, m = map(int, input().split())
-k = 0
-for i in range(len(array)):
-  if sum(array[i:i+m]) == d:
-    k += 1
-print(k)
+# SOLUTION - 9/4/2022 12:09PM
+N = int(input());
+A = list(map(int, input().split()));
+D, M = map(int, input().split());
+parts = 0;
+for i in range(N-M+1):
+  arr_sum = 0;
+  for j in range(i, i+M):
+    arr_sum += A[j];
+  if arr_sum == D:
+    parts += 1;
+print(parts);
