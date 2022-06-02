@@ -5,9 +5,9 @@ Bablu wants to know the arrangement of seats inside the train coach.
 The entire coach could be viewed as an arrangement of consecutive blocks of size 8.
 
 Berth Number   Compartment
-1 -  8    1
-9 - 16    2
-17 - 24    3
+1 -  8            1
+9 - 16            2
+17 - 24           3
 ... and so on
 Each of these size-8 blocks are further arranged as:
 1LB, 2MB, 3UB, 4LB, 5MB, 6UB, 7SL, 8SU, 9LB, 10MB, ......
