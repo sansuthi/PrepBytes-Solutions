@@ -35,3 +35,14 @@ So the string is Noble Vowel.
 In the second string, f is a consonant, which should be followed by a vowel 
 but it is being followed by another consonant, so this string is not Noble Vowel.
 '''
+# SOLUTION - 7/6/2022 10:41AM
+for _ in range(int(input())):
+  S = input() + ' ';
+  vowels = 'aeiou'; 
+  result = 'YES'; 
+  for i in range(len(S)-1):
+    if S[i] not in vowels and S[i] != 'n':
+      if S[i+1] not in vowels:
+        result = 'NO';
+        break;
+  print(result);
