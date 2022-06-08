@@ -32,20 +32,20 @@ N=6, S=4, p=1, q=3
 4 rides can be done in 3 rupees and remaining 2 rides can be completed in 1 rupee each, 
 so in total 3 + 1 + 1 = 5.
 '''
-# SOLUTION - 8/6/2022 2:05PM	
+# SOLUTION - 8/6/2022 2:19PM
 for _ in range(int(input())):
   N, S, p, q = map(int, input().split());
   s1 = (N//S) * q;
   s2 = (N%S) * p;
   s3 = N * p;
   if N > S:
-    if q < p:
+    if p <= q:
+      price = min(s1+s2, s3);   
+    else:
       if s2 < q:
         price = s1 + s2;
       else:
-        price = s1 + q;
-    else:
-      price = min(s1 + s2, s3);     
+        price = s1 + q;      
   else:
     if s3 < q:
       price = s3;
