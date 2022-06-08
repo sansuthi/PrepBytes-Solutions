@@ -30,7 +30,7 @@ Output
 Sample test case explanation
 N=6, S=4, p=1, q=3
 4 rides can be done in 3 rupees and remaining 2 rides can be completed in 1 rupee each, 
-so in total 3+1+1 = 5.
+so in total 3 + 1 + 1 = 5.
 '''
 # SOLUTION - 8/6/2022 2:05PM	
 for _ in range(int(input())):
