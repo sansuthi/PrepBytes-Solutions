@@ -21,7 +21,7 @@ For each test case, print YES if all the toys can be placed on the shelves in th
 Constraints
 . 0 <= d1, c1, m1 <= 100
 . 0 <= p1, s1, k1 <= 100
-. 1 <= N <=100
+. 1 <= N <= 100
 
 Time Limit
 1 second 
