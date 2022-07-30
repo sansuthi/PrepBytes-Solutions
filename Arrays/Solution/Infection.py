@@ -1,7 +1,7 @@
 # Infection
 '''
 Prepbudy is having N school friends. One day Prepbudy tested covid positive and before he know about this he 
-infected one of his friends. Before the report came for i=1,2,3,...N his i-th friend  meet the Ai friend and 
+infected one of his friends. Before the report came for i=1,2,3,...N his i-th friend meet the Ai friend and 
 infect him also if he was not already infected. You have to tell how many Prepbudy's friends are getting infected.
 
 Input format
@@ -30,8 +30,8 @@ Sample Output
 3
 
 Explanation
-Initially, Prepbudy will infect the 2nd friend. Now, 2nd friend will infect the 1st then 
-1st will infect the 3rd hence Prepbud's 3 friends will get infected.
+Initially, Prepbudy will infect the 2nd friend. Now, 2nd friend will infect the 
+1st then 1st will infect the 3rd hence Prepbud's 3 friends will get infected.
 '''
 # SOLUTION - 30/7/2022 9:01AM
 N, X = map(int, input().split());
