@@ -11,7 +11,7 @@ Output  Format
 Print a single number — the answer to the problem.
 
 Constraints
-. 1≤T≤10
+. 1 ≤ T ≤ 10
 . 1 ≤ |str| ≤ 10^3, where |str| represents the length of the string.
 
 Time Limit
@@ -23,7 +23,7 @@ Input
 amanmgnaa
 amanaaamanc
 
-Output1
+Output
 6
 20
 
